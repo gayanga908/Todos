@@ -3,7 +3,7 @@ import router from "./routes/routes.js";
 import todoRouter from "./routes/todo-routes.js";
 import mongoose from 'mongoose';
 
-const uri = "mongodb+srv://todoUser908:FzGCvYLPljanGBgz@cluster0.5f5yi.mongodb.net/todoApp?retryWrites=true&w=majority";
+const uri = "<<MongoURI>>";
 
 mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true});
 
